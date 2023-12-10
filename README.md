@@ -1,0 +1,3 @@
+This is a Blog system in whichc a user logs in as a blog writer and can enter blogs with present date and time...
+
+-This is a single user blog-website.
