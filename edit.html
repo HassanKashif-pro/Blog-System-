@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>Hassan's Blog</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>Hassan's Blog</h1>
+  <button type="button" onclick="location.href='/logout'">Logout</button>
+  <!-- Form for adding a new blog entry -->
+  <form method="POST" action="/add">
+    <p>Title: <input type="text" name="title"></p>
+    <p>Date: <input type="date" name="date"></p>
+    <p>Body: <input type="text" name="body"></p>
+    <button type="submit">Add Blog Entry</button>
+  <hr>
+  </form>
+  <!-- Placeholder for displaying existing blog content -->
+  <div>
+    {content}
+  </div>
+</body>
+</html>
